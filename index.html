@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      .form {font-family: "Times New Roman", Times, serif;font-size: larger;text-align: center;margin-top: 100;margin: auto;border-style: solid thin;border-radius: 20px;}
+      input {padding: 10px;width: 300px;margin-top: 10px;border-radius: 25px;}
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Kullanici Giris Ekrani</h1>
+    <form class="form" action="operation.php" method="POST"><br/>
+      <input type="text" name="id" placeholder="id" /><br/>
+      <input type="text" name="name" placeholder="Ad" /><br/>
+      <input type="text" name="email" placeholder="mail" /><br/>
+      <input type="password" name="password" placeholder="sifre" /><br/>
+      <input type="submit" value="Log in" />
+    </form>
+  </body>
+</html>
